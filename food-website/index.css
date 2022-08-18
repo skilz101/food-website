@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    font-size:22px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:linear-gradient(black,black),url(background/background.jpeg);
+    background-size:cover;
+    background-position: bottom;
+    box-shadow: inset px 10px 1px  black;
+}
+
+/*=============================== NAVIGATION SECTION========================*/
+nav{
+    width:1200px;
+    position: absolute;
+    top:25px;
+    left:150px;
+    align-items: baseline;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left:60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:gray;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.active a, .hover a:hover{
+    color:white;
+}
+
+.logo{
+    float:left;
+    margin-right:190px;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+p{
+    position:absolute;
+    top:5px;
+    margin-left:40px;
+    color:white;
+}
+
+.button{
+    background-color:red;
+    border-radius: 20px;
+    width:120px;
+    height:34px;
+    text-align: center;
+    padding:3px 10px;
+    transition: 0.5s;
+}
+
+.button a {
+    color:#fff;
+    font-size:15px;
+}
+
+.button:hover{
+    opacity: 0.5;
+}
+
+.content{
+    position: absolute;
+    top:250px;
+    left:130px;
+    width:600px;
+}
+
+.content p{
+    position:relative;
+    right:40px;
+    color:darkgray;
+}
+
+.content h1{
+    margin-top: 10px;
+    font-size:40px;
+    color:white;
+    font-weight:600;
+}
+
+.content button{
+    margin-top:20px;
+    font-size:26px;
+    border-radius: 15px;
+    padding: 5px 20px;
+    background-color:red;
+    text-align:center;
+    color: #fff;
+    border:none;
+    transition:0.5s;
+}
+
+.content button:hover{
+    opacity: 0.5;
+}
